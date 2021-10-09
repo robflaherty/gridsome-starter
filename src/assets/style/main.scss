@@ -1,0 +1,29 @@
+/** Import the Bulma variables */
+@import "overrides";
+
+/** Import Bulma */
+@import "~bulma";
+
+body {
+  font-size: 18px;
+  line-height: 1.44;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 24px;
+  @include until(600px) {
+    font-size: 32px;
+  }
+}
+h3 {
+  font-size: 22px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 40px;
+  @include until(600px) {
+    font-size: 20px;
+  }
+}
